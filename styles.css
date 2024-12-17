@@ -1,0 +1,121 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557 
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Lexend", sans-serif;
+    color: #232324;
+}
+
+img {
+    width: 150px;
+}
+
+#hero-section {
+    background-image: url("images/novi-sad-img.png");
+    background-size: cover;
+    background-position: center;
+    padding: 10px 80px 40px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thin-text {
+    font-weight: 400;
+}
+
+h1, h2 {
+    background: #fcfcfd;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 50px;
+    margin: 40px auto 50px auto;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 19px;
+}
+
+a {
+    color: #005ce6;
+    font-weight: 500;
+}
+
+#activities-section {
+    background: #eef1f5;
+    padding: 20px 30px 40px 30px;
+}
+
+#activities-section-card-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.activities-section-card {
+    padding: 40px;
+    width: 250px;
+}
+
+.activities-section-card img {
+    border-radius: 50%;
+}
+
+#guide-section {
+    background: #d0d4e2;
+    padding: 50px 0 50px 0;
+}
+
+#guide-section-card {
+    width: 520px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    background: #eef1f5;
+    color: #232324;
+    border-radius: 5px;
+    align-items: center;
+    transition: transform .3s, box-shadow .3s;
+    box-shadow: 8px 8px 5px #9199ba;
+}
+
+#guide-section-card-avatar {
+    border-radius: 8px;
+    margin-right: 12px;
+}
+
+#guide-section-card:hover {
+    transform: scale(1.03);
+    box-shadow: 5px 11px 6px #6C76A3;
+}
+
+#guide-section-card:hover a {
+    color: #0054D1;
+    font-weight: 600;
+}
